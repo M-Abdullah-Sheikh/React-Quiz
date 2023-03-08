@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #3F497F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: aliceblue;
+}
+
+.welcomeText {
+    width: 300px;
+}
+
+.welcomeText input,
+.welcomeText button {
+    display: block;
+    width: 100%;
+}
+
+.welcomeText input {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #3F497F;
+}
+
+.welcomeText button {
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #3F497F;
+    color: white;
+    transition: 0.4s all;
+}
+
+.welcomeText button:hover {
+    transform: translateY(-4px);
+
+}
+
+footer {
+    background-color: #3F497F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.quiz {
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+}
+
+.quizHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #3F497F;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.quizUser {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+}
+
+.quizBody {
+    padding: 30px;
+}
+
+.quizBody h2 {
+    text-align: center;
+}
+
+.optionGroup {
+    margin: 30px 0;
+}
+
+.option {
+    width: 100px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.optionGroup label {
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btnNext {
+    background-color: #3F497F;
+    color: aliceblue;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    float: right;
+}
+
+.btnNext:hover {
+    background-color: aliceblue;
+    color: #3F497F;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: #3F497F;
+    color: white;
+}
+
+.Results #content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.Results #content h1 {
+    margin: 20px 0px;
+}
